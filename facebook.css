@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    background-color: #f0f2f5;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    /* background-color: rgb(132, 81, 81); */
+    display: flex;
+    width: 85vh;
+    gap: 100px;
+}
+
+section .left{
+    /* background-color: pink; */
+    flex: 3;
+}
+
+.left .img-container{
+    width: 300px;
+}
+
+.img-container img{
+    width: 100%;
+    margin-left: -30px;
+}
+
+.text h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section .right{
+    background-color: white;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    /* margin: 15px; */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px;
+    gap: 10px;
+}
+
+.right input{
+    outline: none;
+    border: 1px solid rgba(59, 57, 57, 0.27);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.right input:focus{
+    outline: 1px solid rgb(8, 102, 255);
+}
+
+#login{
+    background-color: rgb(19, 102, 236);
+    font-size: 600;
+    color: #f0f2f5;
+}
+
+a{
+    text-align: center;
+    color: rgb(19, 102, 236);
+    font-size: 16px;
+}
+
+#signup{
+    background-color: #42b71a;
+    border: none;
+    outline: none;
+    font-size: 600;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 15px;
+    width: 200px;
+    margin: 0 auto;
+}
